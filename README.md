@@ -1,5 +1,5 @@
-# argonjs.io front page
+# DedeVillela front page
 
-This repo is the webpage for argonjs.io, the main page for the argon.js project.
+This repo is the webpage for DedeVillela.com.
 
 Style based on [github.com/t413/SinglePaged](https://github.com/t413/SinglePaged)
