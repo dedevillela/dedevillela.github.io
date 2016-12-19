@@ -7,20 +7,20 @@ safe: false
 
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: /
+permalink: /:title ## disables post output
 timezone: null
 lsi: false
 markdown: kramdown
 
 
 ### content configuration ###
-title:       "Andre Aguiar Villela - Designer e Web Developer"
-keywords:    "DedeVillela, dedevillela, design, github, development, wordpress, javascript, node, react, angular, radarmg"
-description: "Portfolio online com os principais trabalhos realizados em design e desenvolvimento web."
-source_link: "https://dedevillela.github.io/"
-favicon:     "img/favicon.ico"
-touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-89238101-1 ## put YOUR key here to enable tracking! (blank to disable)
+title:       "DedeVillela.com"
+keywords:    "design, development, wordpress, php, web, javascript"
+description: "Portfolio online do designer e desenvolvedor web Andre Aguiar Villela."
+source_link: "https://github.com/dedevillela"
+favicon:     "favicon.ico"
+touch_icon:  "img/apple-icon-180x180.png"
+google_analytics_key: "UA-89238101-1"
 
 
 ### template colors, used site-wide via css ###
@@ -32,7 +32,16 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
-
-kramdown:
-  auto_ids:  false
-
+  gtgold:    '#eeb211'
+  gtnavy:    '#00254c'
+  gtmetallic: '#f5d376'
+  buzzgold:   '#eeb211'
+  buzzgold60: '#f5d376'
+  gtblue:     '#00254c'
+  gtblue80:   '#335170'
+  black85:    '#262626'
+  darkgray:   '#545454'
+  mediumgray: '#808080'
+  lightgray:  '#e5e5e5'
+  gtlinkblue: '#004f9f'
+  gtlinkhover: '#1879db'

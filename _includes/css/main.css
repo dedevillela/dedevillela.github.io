@@ -111,8 +111,8 @@ hr {
 
 /* ----- top menu ----- */
 
-{% assign navborder = 3 %}
-{% assign navborder_active = 6 %}
+{% assign navborder = 5 %}
+{% assign navborder_active = 10 %}
 
 nav {
   font-size:15px;
@@ -121,7 +121,7 @@ nav {
   z-index:100;
   top:0;
   left:0;
-  background:#2e2e2e;
+  background:#335170;
 }
 
 nav ul {
@@ -135,7 +135,7 @@ nav ul {
 nav ul li {
   display:inline-block;
   border-top:{{navborder}}px solid;
-  padding: {{navborder}}px;
+  padding: {{navborder}}px 0;
   *display:inline;
   zoom:1;
   line-height:normal;
@@ -354,4 +354,6 @@ nav ul li:hover, nav ul li.active {
     -moz-column-count:    2;
     column-count:         2;
   }
+}
+ }
 }
