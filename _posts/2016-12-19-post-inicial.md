@@ -5,5 +5,5 @@ color: black
 style: center
 ---
 
-# Example headline!
-Onde tudo come�ou...
+# Título
+Onde tudo começou...
