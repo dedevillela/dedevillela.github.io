@@ -14,7 +14,7 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Andre Aguiar Villela - Designer & Web Developer"
+title:       "Andre Aguiar Villela - Designer e Web Developer"
 keywords:    "DedeVillela, dedevillela, design, github, development, wordpress, javascript, node, react, angular, radarmg"
 description: "Portfolio online com os principais trabalhos realizados em design e desenvolvimento web."
 source_link: "https://dedevillela.github.io/"
